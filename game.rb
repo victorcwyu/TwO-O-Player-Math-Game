@@ -1,8 +1,3 @@
-# How many players
-# who's turn
-# It will contain the game loop, using a while loop.
-# It will contain user I/O
-
 require './player.rb'
 require './question.rb'
 
@@ -14,8 +9,6 @@ class Game
     puts "What is player 2's name?"
     player2 = gets.chomp
     @player2 = Player.new(player2)
-    # puts @player1.name
-    # puts @player2.name
   end
 
   def makeQuestion
